@@ -41,8 +41,8 @@ const ApplyLink = () => {
   );
 
   const invalidCountryButton = (
-    <Link href="/non-eu-warning">
-      <a className="button">{buttonContent}</a>
+    <Link href="/non-eu-warning" className="button">
+      {buttonContent}
     </Link>
   );
 

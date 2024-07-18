@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Tab = ({ activeTab, label, onClick, style, className }) => {
+const Tab = ({ activeTab, label, onClick, style = {}, className = '' }) => {
   function handleClick() {
     onClick(label);
   }
@@ -32,11 +32,6 @@ const Tab = ({ activeTab, label, onClick, style, className }) => {
       </h2>
     </li>
   );
-};
-
-Tab.defaultProps = {
-  style: {},
-  className: '',
 };
 
 Tab.propTypes = {

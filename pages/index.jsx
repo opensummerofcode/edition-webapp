@@ -17,6 +17,8 @@ const HomeContainer = () => {
     ? useSWR(() => `/editions/${previousEdition.year}/partners.json`, fetch).data
     : useSWR(() => `/editions/${activeEdition.year}/partners.json`, fetch).data;
 
+  console.log({ showPreviousPartners, partners });
+
   return (
     <>
       <HomeHeader />

@@ -194,9 +194,7 @@ const Info = () => {
                   <p className="c-package__info--small u-text-align-center">
                     Not ready to partner up with a team? Check out our other{' '}
                     <Link href="#support-partners">
-                      <strong>
-                        <a>partner deals</a>
-                      </strong>
+                      <strong>partner deals</strong>
                     </Link>{' '}
                     .
                   </p>
@@ -278,9 +276,7 @@ const Info = () => {
               <p className="c-package__info--small">
                 Not ready to partner up with a team? Check out our other{' '}
                 <Link href="#support-partners">
-                  <strong>
-                    <a>partner deals</a>
-                  </strong>
+                  <strong>partner deals</strong>
                 </Link>{' '}
                 .
               </p>
@@ -383,9 +379,7 @@ const Info = () => {
                 <td colSpan="4">
                   <p className="u-text-align-center">
                     <Link href="#benefits">
-                      <strong>
-                        <a>Discover all benefits &darr;</a>
-                      </strong>
+                      <strong>Discover all benefits &darr;</strong>
                     </Link>{' '}
                     <br />
                     All partners are welcome and encouraged to come meet our teams!
@@ -652,10 +646,7 @@ const Info = () => {
         <p><small>Brainstorming hard for Leuven Leest at open summer of code 2016</small></p></div> --> */}
         <div className="medium-8 large-5 large-offset-1 cell">
           <p>
-            <Link href="/practical">
-              <a>Visit our FAQ</a>
-            </Link>{' '}
-            if you have any questions, or send us{' '}
+            <Link href="/practical">Visit our FAQ</Link> if you have any questions, or send us{' '}
             <a
               href="mailto:info@osoc.be?subject=Regarding osoc Partnership"
               title="Partnership at osoc"

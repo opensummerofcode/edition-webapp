@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Img from '../../../UI/Img';
 
-const ImgLogo = ({ handleLoad }) => {
+const ImgLogo = ({ handleLoad = null }) => {
   return (
     <Img
       onLoad={handleLoad}
@@ -10,10 +10,6 @@ const ImgLogo = ({ handleLoad }) => {
       alt="open summer of code logo, very abstract, fun, but professional"
     />
   );
-};
-
-ImgLogo.defaultProps = {
-  handleLoad: null,
 };
 
 ImgLogo.propTypes = {

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import ExternalLink from './ExternalLink';
 
-const DemoDayLink = ({ className, children: text }) => {
+const DemoDayLink = ({ className = '', children: text }) => {
   return (
     <ExternalLink
       href="https://www.eventbrite.com/e/demoday-osoc-2024-tickets-933379492187"
@@ -11,10 +11,6 @@ const DemoDayLink = ({ className, children: text }) => {
       {text}
     </ExternalLink>
   );
-};
-
-DemoDayLink.defaultProps = {
-  className: '',
 };
 
 DemoDayLink.propTypes = {

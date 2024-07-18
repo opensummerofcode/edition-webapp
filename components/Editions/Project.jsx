@@ -32,28 +32,32 @@ const Project = ({ edition, project }) => {
 
   return (
     // ${isDemoDay ? 'on-demo-day' : ''}
-    <div className="c-projects-project">
-      <Link href="/editions/[year]/[project]" as={`/editions/${edition}/${id ?? slug}`}>
-        <a className="c-projects-image">
+    <>
+      <div className="c-projects-project">
+        <Link
+          href="/editions/[year]/[project]"
+          as={`/editions/${edition}/${id ?? slug}`}
+          className="c-projects-image"
+        >
           <img
             src={logo ?? `/editions/${edition}/projects/${slug}.svg`}
             alt={`Crest of the ${name} project`}
           />
-        </a>
-      </Link>
-      <h2 className="c-projects__title h5">
-        <Link href="/editions/[year]/[project]" as={`/editions/${edition}/${id ?? slug}`}>
-          <a>{name}</a>
         </Link>
-      </h2>
-      <p>{description}</p>
-      {/* // isDemoDay && ( */}
-      {false && (
-        <ButtonLink disabled={buttonDisabled} isExternal href={project.breakout.room}>
-          {$buttonContent}
-        </ButtonLink>
-      )}
-    </div>
+        <h2 className="c-projects__title h5">
+          <Link href="/editions/[year]/[project]" as={`/editions/${edition}/${id ?? slug}`}>
+            {name}
+          </Link>
+        </h2>
+        <p>{description}</p>
+        {/* // isDemoDay && ( */}
+        {false && (
+          <ButtonLink disabled={buttonDisabled} isExternal href={project.breakout.room}>
+            {$buttonContent}
+          </ButtonLink>
+        )}
+      </div>
+    </>
   );
 };
 

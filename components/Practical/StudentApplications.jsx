@@ -51,8 +51,8 @@ const StudentApplication = () => {
               Over the last few years, students have got the opportunity to work on open innovation
               projects in different fields such as mobility, education, health, sports and
               biodiversity. Check out{' '}
-              <Link href="/editions/[year]" as="/editions/2022">
-                <a target="_blank">last edition</a>
+              <Link href="/editions/[year]" as="/editions/2022" target="_blank">
+                last edition
               </Link>{' '}
               to see what kind of projects have been built by osoc students at the latest edition.
             </p>

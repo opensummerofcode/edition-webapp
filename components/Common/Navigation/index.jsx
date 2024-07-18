@@ -57,10 +57,8 @@ const Navigation = () => {
             id="nav-menu"
           >
             <div className="top-bar-left show-for-large">
-              <Link href="/">
-                <a className="logo" data-hide-for="medium">
-                  <ImgLogo />
-                </a>
+              <Link href="/" className="logo" data-hide-for="medium">
+                <ImgLogo />
               </Link>
             </div>
             <div className="top-bar-right">
@@ -117,11 +115,9 @@ const Navigation = () => {
                 </li>
 
                 {/* <li>
-                  <Link href="/editions/[year]" as="/editions/2020">
-                    <a className="button">
+                  <Link href="/editions/[year]" as="/editions/2020" className="button">
                       Discover all osoc20 projects
                       <span className="button__info" />
-                    </a>
                   </Link>
                 </li> */}
               </ul>

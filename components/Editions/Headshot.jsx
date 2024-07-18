@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Image from 'next/image';
 import ExternalLink from '../UI/ExternalLink';
 
-const HeadShot = ({ data, socials, picture, roleShown }) => {
+const HeadShot = ({ data, socials = {}, picture, roleShown = true }) => {
   const { name, isCoach } = data;
   const { twitter, linkedin, github, behance, instagram, mastodon, photos } = socials;
 
@@ -52,11 +52,6 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
       </div>
     </article>
   );
-};
-
-HeadShot.defaultProps = {
-  socials: {},
-  roleShown: true,
 };
 
 HeadShot.propTypes = {

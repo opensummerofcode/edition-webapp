@@ -90,10 +90,7 @@ const Info = () => {
             network — all while having fun.
           </p>
           <p>
-            <Link href="/practical">
-              <a>Visit our FAQ</a>
-            </Link>{' '}
-            to learn more, or send us{' '}
+            <Link href="/practical">Visit our FAQ</Link> to learn more, or send us{' '}
             <a href="mailto:info@osoc.be?subject=Regarding osoc" title="Student at osoc">
               a message
             </a>

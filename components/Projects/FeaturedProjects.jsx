@@ -12,15 +12,17 @@ const FeaturedProjects = ({ divider }) => {
   // eslint-disable-next-line react/prop-types
   const renderProject = ({ name, description, logo, id }) => (
     <div key={id} className="small-6 medium-6 large-3 cell c-projects-project">
-      <Link href="/editions/[year]/[project]" as={`/editions/${activeEdition}/${id}`}>
-        <a className="c-projects-image">
-          <img src={logo} alt="Logo of project Bike4Brussels" />
-        </a>
+      <Link
+        href="/editions/[year]/[project]"
+        as={`/editions/${activeEdition}/${id}`}
+        className="c-projects-image"
+      >
+        <img src={logo} alt="Logo of project Bike4Brussels" />
       </Link>
       <div className="c-projects-content">
         <h2 className="h5">
           <Link href="/editions/[year]/[project]" as={`/editions/${activeEdition}/${id}`}>
-            <a>{name}</a>
+            {name}
           </Link>
         </h2>
         <p>{description}</p>

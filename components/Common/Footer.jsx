@@ -78,19 +78,13 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <Link href="/students">
-                    <a>Students</a>
-                  </Link>
+                  <Link href="/students">Students</Link>
                 </li>
                 <li>
-                  <Link href="/partners">
-                    <a>Partners</a>
-                  </Link>
+                  <Link href="/partners">Partners</Link>
                 </li>
                 <li>
-                  <Link href="/coaches">
-                    <a>Coaches</a>
-                  </Link>
+                  <Link href="/coaches">Coaches</Link>
                 </li>
               </ul>
             </div>
@@ -102,14 +96,10 @@ const Footer = () => {
                   </DemoDayLink>
                 </li>
                 <li>
-                  <Link href="/practical">
-                    <a>Practical</a>
-                  </Link>
+                  <Link href="/practical">Practical</Link>
                 </li>
                 <li>
-                  <Link href="/editions#2024">
-                    <a>2024</a>
-                  </Link>
+                  <Link href="/editions#2024">2024</Link>
                 </li>
               </ul>
             </div>
@@ -172,37 +162,27 @@ const Footer = () => {
             </div>
             <div className="small-2 medium-auto cell">
               <Link href="/editions#2019">
-                <a>
-                  <img src={W2019} alt="2019 osoc logo" />
-                </a>
+                <img src={W2019} alt="2019 osoc logo" />
               </Link>
             </div>
             <div className="small-2 medium-auto cell">
               <Link href="/editions#2020">
-                <a>
-                  <img src={W2020} alt="2020 osoc logo" />
-                </a>
+                <img src={W2020} alt="2020 osoc logo" />
               </Link>
             </div>
             <div className="small-2 medium-auto cell">
               <Link href="/editions#2021">
-                <a>
-                  <img src={W2021} alt="2021 osoc logo" />
-                </a>
+                <img src={W2021} alt="2021 osoc logo" />
               </Link>
             </div>{' '}
             <div className="small-2 medium-auto cell">
               <Link href="/editions#2022">
-                <a>
-                  <img src={W2022} alt="2022 osoc logo" />
-                </a>
+                <img src={W2022} alt="2022 osoc logo" />
               </Link>
             </div>{' '}
             <div className="small-2 medium-auto cell">
               <Link href="/editions#2024">
-                <a>
-                  <img src={W2024} alt="2024 osoc logo" />
-                </a>
+                <img src={W2024} alt="2024 osoc logo" />
               </Link>
             </div>
           </div>

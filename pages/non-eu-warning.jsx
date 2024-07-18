@@ -61,8 +61,8 @@ const NonEUWarning = () => {
           <div className="actions">
             <div className="go-back-container">
               <p>
-                <Link href="/">
-                  <a className="link link--go-back">I understand, back to home.</a>
+                <Link href="/" className="link link--go-back">
+                  I understand, back to home.
                 </Link>
                 <small>
                   <span role="img" aria-label="A tip:">
