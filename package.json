@@ -53,7 +53,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.29.2",
+    "@netlify/plugin-nextjs": "^5.7.2",
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.3",
     "enzyme": "^3.9.0",
