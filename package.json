@@ -11,7 +11,7 @@
     "leaflet": "^1.9.3",
     "lint-staged": "^13.1.0",
     "motion-ui": "^2.0.4",
-    "next": "^12.2.0",
+    "next": "^14.2.10",
     "next-images": "^1.8.4",
     "prop-types": "^15.7.1",
     "react": "^16.14.0",
